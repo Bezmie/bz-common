@@ -16,7 +16,7 @@ if( ! function_exists('tagpages_register_taxonomy') ){
     add_action('init', 'tagpages_register_taxonomy');
 }
 
-// Display all post_types on the tags archive page. This forces WordPress to
+// Display all post_types on the tags archive page.
 
 if( ! function_exists('tagpages_display_tagged_pages_archive') ){
     function tagpages_display_tagged_pages_archive(&$query)
